@@ -1,0 +1,23 @@
+{
+
+	"manifest_version": 2,
+	"name": "StoryPoint Count",
+	"version": "1.0",
+	"description": "Sums Story Points shown on a given page for a Jira query result",
+	
+	"icons": {
+	      "48": "icons/border-48.png"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_icon": {"32": "icons/border-32.png"}
+	},
+
+	"permissions": [ "activeTab" ],
+
+	"background": {"scripts": ["background.js"]}
+}
